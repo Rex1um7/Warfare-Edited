@@ -1698,6 +1698,34 @@ UnitIcons/Zeppelin
   orig: 100, 100
   offset: 0, 0
   index: -1
+  UnitIcons/Armored Elephant
+  rotate: false
+  xy: 760, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  UnitIcons/Armored War Elephant
+  rotate: false
+  xy: 760, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  UnitIcons/Elephant
+  rotate: false
+  xy: 760, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  UnitIcons/Indian War Elephant
+  rotate: false
+  xy: 760, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/AA Buster
   rotate: false
   xy: 1608, 1524
