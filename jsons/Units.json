@@ -298,16 +298,43 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "War Elephant",
+		"name": "Indian War Elephant",
 		"unitType": "Ranged Cavalry",
 		"uniqueTo": "India",
-		"replaces": "Chariot Archer",
+		"replaces": "War Elephant",
 		"movement": 3,
 		"strength": 11,
 		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "Trapping",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Armored War Elephant",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "elephant"
+	},
+	{
+		"name": "War Elephant",
+		"unitType": "Ranged Cavalry",
+		"movement": 3,
+		"strength": 11,
+		"rangedStrength": 11,
+		"cost": 70,
+		"requiredTech": "Trapping",
+		"requiredResource": "Ivory",
+		"upgradesTo": "Armored War Elephant",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "elephant"
+	},
+	{
+		"name": "Elephant",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+		"strength": 11,
+		"cost": 50,
+		"requiredTech": "Trapping",
+		"requiredResource": "Ivory",
+		"upgradesTo": "Armored Elephant",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "elephant"
@@ -381,8 +408,24 @@
 		"promotions":  ["Reinforced Armor"],
 		"attackSound": "throw"
 	},
+	{
+		"name": "Spy",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can enter foreign tiles without open borders","Invisible to others"],
+		"cost": 80
+		"requiredTech": "Writing",
+	},
 
 	/* Classical Era */
+	{
+		"name": "Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"],
+		"movement": 2
+		"cost":70,
+		"requiredTech": "Currency",
+	},
 	{
 		"name": "Heavy Infantry",
 		"unitType": "Anti Cavalry",
@@ -727,6 +770,33 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Armored War Elephant",
+		"unitType": "Ranged Cavalry",
+		"movement": 3,
+		"strength": 26,
+		"rangedStrength": 18,
+		"cost": 160,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Ivory",
+		"upgradesTo": "Mobile Gun",
+		"obsoleteTech": "Combustion",
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]"],
+		"attackSound": "elephant"
+	},
+	{
+		"name": "Armored Elephant",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+		"strength": 25,
+		"cost": 130,
+		"requiredTech": "Civil Service",
+		"requiredResource": "Ivory",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]"],
+		"attackSound": "elephant"
+	},
+	{
 		"name": "Landsknecht",
 		"unitType": "Anti Cavalry",
 		"replaces": "Pikeman",
@@ -871,7 +941,7 @@
 	{
 		"name": "Naresuan's Elephant",
 		"unitType": "Heavy Cavalry",
-		"replaces": "Knight",
+		"replaces": "Armored Elephant",
 		"uniqueTo": "Siam",
 		"movement": 3,
 		"strength": 28,
