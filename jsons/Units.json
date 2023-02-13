@@ -778,7 +778,7 @@
 		"cost": 160,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Ivory",
-		"upgradesTo": "Mobile Gun",
+		"upgradesTo": "Horse Artillery",
 		"obsoleteTech": "Combustion",
 		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]"],
 		"attackSound": "elephant"
@@ -791,7 +791,7 @@
 		"cost": 130,
 		"requiredTech": "Civil Service",
 		"requiredResource": "Ivory",
-		"upgradesTo": "Landship",
+		"upgradesTo": "Cuirasser",
 		"obsoleteTech": "Combustion",
 		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]"],
 		"attackSound": "elephant"
