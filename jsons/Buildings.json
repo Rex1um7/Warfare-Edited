@@ -40,15 +40,15 @@
 	},
 	{
 		"name": "Coastal Battery",
-		"cost": 300,
+		"cost": 400,
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredBuilding": "Castle",
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Replaceable Parts",
 		"requiredResource": "Iron"
-		"uniques": ["Destroyed when the city is captured", "Must be next to [Coast]", "[+1] [Range] for this city"],
+		"uniques": ["Destroyed when the city is captured", "Must be next to [Coast]", "[+1] Range"],
 	},
 	{
 		"name": "Theatre",
