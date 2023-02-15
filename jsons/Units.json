@@ -2398,6 +2398,7 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Hovertillery",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -2423,6 +2424,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Rocketry",
+		"upgradesTo": "Hover-SAM",
 		"uniques": ["[80]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
@@ -2720,7 +2722,7 @@
 		"strength": 100,
 		"cost": 475,
 		"requiredTech": "Lasers",
-		"upgradesTo": "Giant Death Robot",
+		"upgradesTo": "Hovertank",
 		"requiredResource": "Aluminum",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
