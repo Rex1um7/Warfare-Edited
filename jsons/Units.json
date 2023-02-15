@@ -758,6 +758,17 @@
 		"attackSound": "metalhit" 
 	},
 	{
+		"name": "Routiers",
+		"unitType": "Anti Cavalry",
+		"movement": 3,
+		"strength": 14,
+		"cost": 70,
+		"requiredTech": "Civil Service",
+		"uniques": ["No movement cost to pillage","Unbuildable","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"upgradesTo": "Free Company",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Armed Peasants",
 		"unitType": "Militia",
 		"movement": 3,
@@ -1258,6 +1269,17 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Free Company",
+		"unitType": "Anti Cavalry",
+		"movement": 3,
+		"strength": 18,
+		"cost": 140,
+		"requiredTech": "Gunpowder",
+		"uniques": ["No movement cost to pillage","Unbuildable","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"upgradesTo": "Line Infantry",
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Tercio",
