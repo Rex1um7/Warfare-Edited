@@ -135,7 +135,7 @@
 	},{
 		"name": "Piety",
 		"era": "Classical era",
-		"uniques": ["[+15]% Production when constructing [Culture] buildings [in all cities]", "Only available <before adopting [Rationalism]>"],
+		"uniques": ["[+15]% Production when constructing [Culture] buildings [in all cities]", "Only available <before adopting [Rationalism]>","May buy [Religious] units with [Faith] for [1/2] times their normal Production cost"],
 		"policies": [
 			{
 				"name": "Organized Religion",
@@ -187,7 +187,7 @@
 		// NOTE: If you remove the space here, also remove the extra space between 'patronage' and 'complete' in the 'patronage  complete' policy.
 		// Otherwise, weird stuff will happen.
 		"era": "Classical era",
-		"uniques": ["[25]% City-State Influence degradation"],
+		"uniques": ["[25]% City-State Influence degradation","May buy [Merchant] units with [Gold] for [1/2] times their normal Production cost"],
 		"policies": [
 			{
 				"name": "Philantropy",
@@ -234,13 +234,13 @@
 	},
 	{
 		"name": "Commerce",
-		"uniques": ["[+25]% [Gold] [in capital]"],
+		"uniques": ["[+25]% [Gold] [in capital]","May buy [Routiers] units with [Gold] for [1] times their normal Production cost","May buy [Free Company] units with [Gold] for [1] times their normal Production cost"],
 		"era": "Medieval era",
 		"policies": [
 			{
 				"name": "Naval Tradition",
 				"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Water}] units>",
-				 "Free [Great Admiral] appears", "[+2] Movement <for [Great Admiral] units>"
+				 "Free [Great Admiral] appears", "[+2] Movement <for [Great Admiral] units>","May buy [Privateer] units with [Gold] for [1/2] times their normal Production cost", "May buy [Commerce Raider] units with [Gold] for [1/2] times their normal Production cost"
 				],
 				"row": 1,
 				"column": 2
