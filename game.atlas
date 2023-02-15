@@ -298,6 +298,13 @@ TileSets/FantasyHex/Units/Draftee
   orig: 32, 28
   offset: 0, 0
   index: -1
+  TileSets/FantasyHex/Units/Dreadnought
+  rotate: false
+  xy: 948, 708
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Drone Launch Vehicle
   rotate: false
   xy: 868, 708
