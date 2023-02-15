@@ -39,6 +39,18 @@
 		"uniques": ["Destroyed when the city is captured", "[2] free [Militiaman] units appear"]
 	},
 	{
+		"name": "Coastal Battery",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Iron"
+		"uniques": ["Destroyed when the city is captured", "Must be next to [Coast]", "[+1] [Range] for this city"],
+	},
+	{
 		"name": "Theatre",
 		"happiness": 3,
 		"hurryCostModifier": 10,
