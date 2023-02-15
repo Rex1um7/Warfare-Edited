@@ -412,7 +412,7 @@
 		"name": "Spy",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can enter foreign tiles without open borders","Invisible to others"],
+		"uniques": ["Can enter foreign land tiles without open borders","Invisible to others"],
 		"cost": 80
 		"requiredTech": "Writing",
 	},
@@ -421,9 +421,9 @@
 	{
 		"name": "Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a small sum of gold and [20] Influence"],
 		"movement": 2
-		"cost":70,
+		"cost":50,
 		"requiredTech": "Currency",
 	},
 	{
@@ -1969,7 +1969,7 @@
 	{
 		"name": "Battleship",
 		"unitType": "Naval Siege",
-		"movement": 5,
+		"movement": 4,
 		"strength": 65,
 		"rangedStrength": 75,
 		"range": 3,
@@ -2681,11 +2681,11 @@
 	{
 		"name": "Arsenal Ship",
 		"unitType": "Naval Siege",
-		"movement": 7,
-		"strength": 90,
-		"rangedStrength": 110,
-		"range": 3,
-		"cost": 520,
+		"movement": 6,
+		"strength": 95,
+		"rangedStrength": 120,
+		"range": 4,
+		"cost": 560,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Aluminum",
 		"uniques": ["Can carry [5] [Air Missile] units", "Can carry [2] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
