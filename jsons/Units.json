@@ -1323,6 +1323,20 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Schooner",
+		"unitType": "Naval Escort",
+		"movement": 6,
+		"strength": 20,
+		"rangedStrength": 18,
+		"range", 1
+		"cost": 145,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Armored Cruiser",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Frigate",
 		"unitType": "Naval Ranged",
 		"movement": 5,
@@ -2137,9 +2151,23 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
-		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[60]% chance to intercept air attacks",
+		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[60]% chance to intercept air attacks",
 			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Corvette",
+		"unitType": "Naval Escort",
+		"movement": 7,
+		"strength": 40,
+		"rangedStrength": 45,
+		"range", 1
+		"cost": 250,
+		"requiredTech": "Combustion",
+		"upgradesTo": "Escort Frigate",
+		"uniques": ["[30]% chance to intercept air attacks","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Modern Pirate",
@@ -2738,7 +2766,7 @@
 		"rangedStrength": 120,
 		"range": 4,
 		"cost": 560,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": ["Can carry [5] [Air Missile] units", "Can carry [2] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
@@ -2753,8 +2781,22 @@
 		"interceptRange": 1,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[+100]% Strength <vs [Naval Submarine] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
+	},
+{
+		"name": "Escort Frigate",
+		"unitType": "Naval Escort",
+		"movement": 7,
+		"strength": 65,
+		"rangedStrength": 50,
+		"range", 1
+		"cost": 420,
+		"requiredTech": "Robotics",
+		"upgradesTo": "Escort Frigate",
+		"uniques": ["Never appears as a Barbarian unit","[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>"],
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Theatre Defense System",
