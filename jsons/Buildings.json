@@ -29,6 +29,13 @@
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},	
 	{
+			"name": "Barracks",
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"uniques": ["New [Military] units start with [15] Experience [in this city]","May buy [Routiers] units with [Gold] for [1] times their normal Production cost","May buy [Free Company] units with [Gold] for [1] times their normal Production cost"],
+			"requiredTech": "Bronze Working"
+		},
+	{
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
