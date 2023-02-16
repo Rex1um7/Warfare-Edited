@@ -766,6 +766,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["No movement cost to pillage","Unbuildable","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Free Company",
+		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
 	{
@@ -1157,7 +1158,7 @@
 	{
 		"name": "Caravel",
 		"unitType": "Naval Melee",
-		"movement": 4,
+		"movement": 5,
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Astronomy",
@@ -1278,7 +1279,8 @@
 		"cost": 140,
 		"requiredTech": "Gunpowder",
 		"uniques": ["No movement cost to pillage","Unbuildable","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
-		"upgradesTo": "Line Infantry",
+		"upgradesTo": "Mercenaries",
+		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
 	},
 	{
@@ -1332,7 +1334,7 @@
 		"cost": 145,
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Armored Cruiser",
+		"upgradesTo": "Corvette",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -1643,6 +1645,18 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Mercenaries",
+		"unitType": "Anti Cavalry",
+		"movement": 2,
+		"strength": 36,
+		"cost": 260,
+		"requiredTech": "Gunpowder",
+		"uniques": ["No movement cost to pillage","Unbuildable","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","Earn [100]% of the damage done to [cities] as [Gold]","[+50]% Strength <vs cities>"],
+		"upgradesTo": "Flamethrower",
+		"obsoleteTech": "Replaceable Parts",
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Rifleman",
@@ -2165,7 +2179,7 @@
 		"cost": 250,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Escort Frigate",
-		"uniques": ["[30]% chance to intercept air attacks","Never appears as a Barbarian unit"],
+		"uniques": ["[20]% chance to intercept air attacks","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
