@@ -412,7 +412,8 @@
 		"name": "Spy",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can enter foreign land tiles without open borders","Invisible to others"],
+		"uniques": ["Invisible to others"],
+		"promotions": ["Spyglass"],
 		"cost": 80
 		"requiredTech": "Writing",
 	},
@@ -421,7 +422,7 @@
 	{
 		"name": "Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a small sum of gold and [20] Influence"],
+		"uniques": ["Can undertake a trade mission with City-State, giving [300] [Gold] and [20] Influence"],
 		"movement": 2
 		"cost":50,
 		"requiredTech": "Currency",
