@@ -1337,6 +1337,21 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
 		"hurryCostModifier": 20,
+		"uniques": ["Transfer Movement to [Civilian]"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Other Schooner",
+		"unitType": "Naval Escort",
+		"movement": 6,
+		"strength": 20,
+		"rangedStrength": 18,
+		"range": 1,
+		"cost": 145,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Corvette",
+		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
 	{
