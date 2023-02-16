@@ -752,45 +752,44 @@
 	
 	//Naval Escort
 	{
-		"name": "Let 'em Have It",
-		"uniques": ["[+25]% Strength <vs [Water] units>"],
-		"unitTypes": ["Naval Ranged"]
+		"name": "Preempted Routing",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Naval Escort"]
 	},
 	{
 		"name": "Old Ironside",
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"prerequisites": ["Naval Targeting", "Beachhead"],
-		"unitTypes": ["Naval Siege"]
+		"unitTypes": ["Naval Escort"]
 	},
 	{
 		"name": "Holdfast",
 		"uniques": ["[+25]% Strength <vs [Air] units>"],
-		"prerequisites": ["Broadside Barrage", "Littoral Warfare"],
-		"unitTypes": ["Naval Ranged"]
+		"prerequisites": ["Preempted Routing", "Old Ironside"],
+		"unitTypes": ["Naval Escort"]
 	},
 	{
-		"name": "Preempted Routing",
-		"uniques": ["[+1] Movement"],
-		"prerequisites": ["Broadside Barrage", "Littoral Warfare"],
-		"unitTypes": ["Naval Ranged"]
+		"name": "Let 'em Have It",
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"prerequisites": ["Preempted Routing", "Old Ironside"],
+		"unitTypes": ["Naval Escort"]
 	},
 	{
 		"name": "Hotfix",
 		"uniques": ["May heal outside of friendly territory"],
-		"prerequisites": ["Line of Battle", "Navigator"],
-		"unitTypes": ["Naval Ranged"]
+		"prerequisites": ["Let 'em Have It", "Holdfast"],
+		"unitTypes": ["Naval Escort"]
+	},
+	{
+		"name": "Seafaring Spyglass",
+		"uniques": ["[+1] Sight"],
+		"prerequisites": ["Let 'em Have It", "Holdfast"],
+		"unitTypes": ["Naval Escort"]
 	},
 	{
 		"name": "Improved Threat Detection",
 		"uniques": ["[+30]% Strength <vs [Air] units> <when defending>", "[+15]% Strength <vs [Melee] units> <when defending>"],
-		"prerequisites": ["Line of Battle", "Navigator"],
-		"unitTypes": ["Naval Ranged"]
-	},
-	{
-		"name": "Underwater Spyglass",
-		"uniques": ["[+1] Sight"],
-		"prerequisites": ["Experienced Helmsman"],
-		"unitTypes": ["Naval Melee"]
+		"prerequisites": ["Hotfix", "Seafaring Spyglass"],
+		"unitTypes": ["Naval Escort"]
 	},
 
 	//Naval Raider and Submarine
