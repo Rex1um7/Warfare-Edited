@@ -2787,14 +2787,14 @@
 {
 		"name": "Escort Frigate",
 		"unitType": "Naval Escort",
-		"movement": 7,
-		"strength": 65,
-		"rangedStrength": 50,
+		"movement": 8,
+		"strength": 75,
+		"rangedStrength": 65,
 		"range", 1
-		"cost": 420,
-		"requiredTech": "Robotics",
+		"cost": 475,
+		"requiredTech": "Lasers",
 		"upgradesTo": "Escort Frigate",
-		"uniques": ["Never appears as a Barbarian unit","[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>"],
+		"uniques": ["Never appears as a Barbarian unit","[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
