@@ -2103,7 +2103,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["[60]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
+		"uniques": ["+20% Strength to adjacent Land Units vs Air units","[60]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2519,7 +2519,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"uniques": ["[80]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
+		"uniques": ["+20% Strength to adjacent Land Units vs Air units","[80]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 	{
@@ -2793,9 +2793,9 @@
 		"strength": 70,
 		"range": 3,
 		"interceptRange": 1,
-		"cost": 425,
+		"cost": 375,
 		"requiredTech": "Robotics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units","May withdraw before melee ([60]%)", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 {
@@ -2805,9 +2805,8 @@
 		"strength": 75,
 		"rangedStrength": 65,
 		"range": 1,
-		"cost": 475,
+		"cost": 425,
 		"requiredTech": "Lasers",
-		"upgradesTo": "Escort Frigate",
 		"uniques": ["Never appears as a Barbarian unit","[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
