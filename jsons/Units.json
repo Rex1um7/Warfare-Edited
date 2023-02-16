@@ -1831,6 +1831,22 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
+	{
+		"name": "Kite",
+		"unitType": "Air Fighter",
+		"movement": 1,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 275,
+		"requiredTech": "Dynamite",
+		"requiredResource": "Secret Project",
+		"upgradesTo": "Biplane",
+		"obsoleteTech": "Radar",
+		"uniques": ["[10]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+100]% Strength <vs [Air Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
 
 	// Modern era
 
