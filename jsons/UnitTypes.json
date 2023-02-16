@@ -118,6 +118,11 @@
 	"uniques": ["[-20]% Strength <vs [Land] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
         "movementType": "Water"
     },
+ {
+        "name": "Naval Escort",
+	"uniques": ["[-40]% Strength <vs [Land] units>","[+30]% Strength <vs [Naval Raider] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
+        "movementType": "Water"
+    },
     {
         "name": "Naval Siege",
 	"uniques": ["[-20]% Strength <vs [Naval Submarine] units>","[-20]% Strength <vs [Naval Raider] units>", "[+30]% Strength <vs cities>"],
