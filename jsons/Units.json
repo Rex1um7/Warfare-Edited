@@ -1964,6 +1964,22 @@
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
+	 {
+		"name": "Biplane",
+		"unitType": "Air Fighter",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": ["[25]% chance to intercept air attacks","[+50]% Strength <vs [Air Bomber] units>"],
+		"attackSound": "machinegun"
+	},
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
@@ -2436,7 +2452,6 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Hovertillery",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -2462,7 +2477,6 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"upgradesTo": "Hover-SAM",
 		"uniques": ["[80]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
@@ -2760,7 +2774,6 @@
 		"strength": 100,
 		"cost": 475,
 		"requiredTech": "Lasers",
-		"upgradesTo": "Hovertank",
 		"requiredResource": "Aluminum",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
