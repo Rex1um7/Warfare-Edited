@@ -120,7 +120,7 @@
     },
  {
         "name": "Naval Escort",
-	"uniques": ["[-40]% Strength <vs [Land] units>","[+30]% Strength <vs [Naval Raider] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
+	"uniques": ["[-40]% Strength <vs [Land] units>","[+30]% Strength <vs [Naval Raider] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units","Transfer Movement to [Civilian]","[+20]% Strength when stacked with [Civilian]"],
         "movementType": "Water"
     },
     {
