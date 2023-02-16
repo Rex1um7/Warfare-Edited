@@ -1330,7 +1330,7 @@
 		"movement": 6,
 		"strength": 20,
 		"rangedStrength": 18,
-		"range", 1
+		"range": 1,
 		"cost": 145,
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
@@ -2175,7 +2175,7 @@
 		"movement": 7,
 		"strength": 40,
 		"rangedStrength": 45,
-		"range", 1
+		"range": 1,
 		"cost": 250,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Escort Frigate",
@@ -2804,7 +2804,7 @@
 		"movement": 8,
 		"strength": 75,
 		"rangedStrength": 65,
-		"range", 1
+		"range": 1,
 		"cost": 475,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Escort Frigate",
