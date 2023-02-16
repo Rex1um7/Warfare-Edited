@@ -805,7 +805,7 @@
 		"requiredResource": "Ivory",
 		"upgradesTo": "Cuirasser",
 		"obsoleteTech": "Combustion",
-		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]","[+35]% Strength <vs cities> <when attacking>","[+30]% Strength <vs [Infantry] units> <when attacking>],
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]","[+35]% Strength <vs cities> <when attacking>","[+30]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "elephant"
 	},
 	{
