@@ -1337,7 +1337,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
 		"hurryCostModifier": 20,
-		"uniques": ["Transfer Movement to [Civilian]"],
+		"uniques": ["[+3] Movement bonus for [Civilian] units within [1] tiles"],
 		"attackSound": "cannon"
 	},
 	{
