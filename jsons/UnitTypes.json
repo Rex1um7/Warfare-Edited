@@ -77,6 +77,7 @@
 
     {
         "name": "Heavy Cavalry",
+	"uniques": ["[+10]% Strength <vs [Land] units>"],
         "movementType": "Land"
     },
     {
