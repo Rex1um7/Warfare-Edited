@@ -1337,7 +1337,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
 		"hurryCostModifier": 20,
-		"uniques": ["[+3] Movement bonus for [Civilian] units within [1] tiles"],
+		"uniques": ["[+3] Movement for [Civilian] units within [1] tiles"],
 		"attackSound": "cannon"
 	},
 	{
@@ -2360,6 +2360,21 @@
 		"range": 10,
 		"cost": 375,
 		"requiredTech": "Radar",
+		"upgradesTo": "Jet Bomber",
+		"obsoleteTech": "Lasers",
+		"requiredResource": "Oil",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Torpedo Bomber",
+		"unitType": "Air Bomber",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": ["Can only attack [Water] tiles", "[+50]% Strength <vs [Water] units>", "[+50]% Strength <vs [Embarked] units>"],
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
