@@ -854,7 +854,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Astronomy",
 		"upgradesTo": "Caravel",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles","May withdraw before melee ([40]%)",],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1173,7 +1173,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Can see invisible [Melee Water] units"],
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Can see invisible [Naval Raider] units"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1338,14 +1338,14 @@
 		"unitType": "Naval Escort",
 		"movement": 5,
 		"strength": 20,
-		"rangedStrength": 18,
+		"rangedStrength": 17,
 		"range": 1,
-		"cost": 145,
+		"cost": 135,
+		"uniques": ["May withdraw before melee ([40]%)",]
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
 		"hurryCostModifier": 20,
-		"uniques": ["[+2] Movement <for [Civilian] units> within [2] tiles"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1356,6 +1356,7 @@
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredResource": "Iron",
+		"uniques": ["May withdraw before melee ([20]%)",]
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Armored Cruiser",
@@ -1897,7 +1898,7 @@
 		"cost": 325,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","May withdraw before melee ([20]%)",],
 		"attackSound": "torpedo"
 	},
 	{
@@ -2054,7 +2055,7 @@
 		"rangedStrength": 55,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["[60]% chance to intercept air attacks","Never appears as a Barbarian unit"],
+		"uniques": ["[60]% chance to intercept air attacks","Never appears as a Barbarian unit","May withdraw before melee ([20]%)"],
 		"upgradesTo": "Missile Cruiser",
 		"attackSound": "shipguns"
 	},
@@ -2065,7 +2066,7 @@
 		"strength": 65,
 		"rangedStrength": 75,
 		"range": 3,
-		"cost": 425,
+		"cost": 450,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit"],
@@ -2186,10 +2187,10 @@
 		"strength": 40,
 		"rangedStrength": 45,
 		"range": 1,
-		"cost": 250,
+		"cost": 275,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Escort Frigate",
-		"uniques": ["[20]% chance to intercept air attacks","Never appears as a Barbarian unit"],
+		"uniques": ["[30]% chance to intercept air attacks","Never appears as a Barbarian unit","May withdraw before melee ([40]%)"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -2776,7 +2777,7 @@
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
-			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","May withdraw before melee ([10]%)"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -2793,7 +2794,7 @@
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
-			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","May withdraw before melee ([30]%)"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -2832,7 +2833,7 @@
 		"range": 1,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["Never appears as a Barbarian unit","[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>"],
+		"uniques": ["Never appears as a Barbarian unit","[95]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>","May withdraw before melee ([60]%)"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
