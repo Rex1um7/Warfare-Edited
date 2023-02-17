@@ -747,6 +747,14 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Supply Agent",
+		"unitType": "Civilian",
+		"uniques": ["[+20] Food when expended","[+20] Production when expended","Normal vision when embarked","[+3] Movement <after discovering [Combustion]>"],
+		"movement": 2
+		"cost":50,
+		"requiredTech": "Guilds",
+	},
+	{
 		"name": "Pikeman",
 		"unitType": "Anti Cavalry",
 		"movement": 2,
@@ -1337,7 +1345,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
 		"hurryCostModifier": 20,
-		"uniques": ["[+3] Movement for [Civilian] units within [1] tiles"],
+		"uniques": ["[2] Movement for [Civilian] units within [1] tiles"],
 		"attackSound": "cannon"
 	},
 	{
