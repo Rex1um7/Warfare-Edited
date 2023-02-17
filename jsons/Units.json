@@ -1345,7 +1345,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
 		"hurryCostModifier": 20,
-		"uniques": ["[2] Movement for [Civilian] units within [1] tiles"],
+		"uniques": ["[+2] Movement <for [{Civilian}] units> within [2] tiles",],
 		"attackSound": "cannon"
 	},
 	{
