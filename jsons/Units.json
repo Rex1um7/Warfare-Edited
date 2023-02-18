@@ -537,7 +537,7 @@
 		"upgradesTo": "Knight",
 		"requiredResource": "Iron",
 		"obsoleteTech": "Steel",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit","Consumes [1] [Horses]"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -886,7 +886,7 @@
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cuirasser",
 		"requiredResource": "Iron",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1440,7 +1440,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Landship",
 		"requiredResource": "Iron",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
 	{
