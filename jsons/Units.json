@@ -1656,7 +1656,7 @@
 		"strength": 36,
 		"cost": 260,
 		"requiredTech": "Rifling",
-		"uniques": ["No movement cost to pillage","Unbuildable","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","Earn [100]% of the damage done to [cities] as [Gold]","[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","Can move immediately once bought","[+50]% Strength <vs cities>"],
 		"upgradesTo": "Flamethrower",
 		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "metalhit"
@@ -1774,7 +1774,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit", "Can see invisible [Melee Water] units"],
+		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit",],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1866,11 +1866,11 @@
 		"name": "Kite",
 		"unitType": "Air Fighter",
 		"movement": 1,
-		"strength": 20,
-		"rangedStrength": 20,
+		"strength": 15,
+		"rangedStrength": 15,
 		"range": 4,
 		"interceptRange": 4,
-		"cost": 275,
+		"cost": 225,
 		"requiredTech": "Dynamite",
 		"requiredResource": "Secret Project",
 		"upgradesTo": "Biplane",
@@ -2003,12 +2003,12 @@
 		"rangedStrength": 25,
 		"range": 4,
 		"interceptRange": 4,
-		"cost": 325,
+		"cost": 275,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[25]% chance to intercept air attacks","[+50]% Strength <vs [Air Bomber] units>"],
+		"uniques": ["[25]% chance to intercept air attacks","[+150]% Strength <vs [Air Bomber] units>","[+100]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
