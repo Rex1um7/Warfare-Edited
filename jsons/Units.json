@@ -1333,7 +1333,7 @@
 		"rangedStrength": 17,
 		"range": 1,
 		"cost": 135,
-		"uniques": ["May withdraw before melee ([40]%)",]
+		"uniques": ["May withdraw before melee ([40]%)"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
@@ -1348,7 +1348,7 @@
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredResource": "Iron",
-		"uniques": ["May withdraw before melee ([20]%)",]
+		"uniques": ["May withdraw before melee ([20]%)"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Armored Cruiser",
@@ -1890,7 +1890,7 @@
 		"cost": 325,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","May withdraw before melee ([20]%)",],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","May withdraw before melee ([20]%)"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -2768,7 +2768,7 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
+		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units",
 			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","May withdraw before melee ([10]%)"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
@@ -2785,7 +2785,7 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units",
 			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","May withdraw before melee ([30]%)"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
