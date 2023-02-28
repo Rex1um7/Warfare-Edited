@@ -1774,7 +1774,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit",],
+		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit","Can see invisible [Naval Raider] units"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2003,12 +2003,12 @@
 		"rangedStrength": 25,
 		"range": 4,
 		"interceptRange": 4,
-		"cost": 275,
+		"cost": 240,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[25]% chance to intercept air attacks","[+150]% Strength <vs [Air Bomber] units>","[+100]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["[35]% chance to intercept air attacks","[+150]% Strength <vs [Air Bomber] units>","[+100]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2588,7 +2588,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["No defensive terrain bonus", "Can move after attacking",
+		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>","No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
