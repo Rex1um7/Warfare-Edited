@@ -1919,12 +1919,12 @@
 		"name": "Coastal Barrage",
 		"unitType": "Air Missile",
 		"movement": 0,
-		"strength": 60,
-		"rangedStrength": 60,
+		"strength": 40,
+		"rangedStrength": 40,
 		"range": 3,
 		"cost": 20,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Unbuildable","[-100]% maintenance costs"],
+		"uniques": ["Unbuildable","[-100]% maintenance costs", "[+100]% Strength <vs [Water] units>"],
 		"attackSound": "missile"
 	},
 	{
