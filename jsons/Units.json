@@ -2618,7 +2618,7 @@
 	{
 		"name": "Armored Infantry",
 		"unitType": "Light Cavalry",
-		"movement": 3,
+		"movement": 4,
 		"strength": 70,
 		"cost": 450,
 		"requiredTech": "Combined Arms",
