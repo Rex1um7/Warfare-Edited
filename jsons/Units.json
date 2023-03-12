@@ -2336,7 +2336,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Jet Interceptor",
+		"upgradesTo": "Rocket Interceptor",
 		"obsoleteTech": "Lasers",
 		"uniques": ["[60]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+30]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -2538,6 +2538,22 @@
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
+	},
+	{
+		"name": "Rocket Interceptor",
+		"unitType": "Air Fighter",
+		"movement": 1,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 9,
+		"interceptRange": 9,
+		"cost": 415,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Interceptor",
+		"obsoleteTech": "Lasers",
+		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+30]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Nuke Cannon",
