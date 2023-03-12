@@ -2548,7 +2548,7 @@
 		"range": 9,
 		"interceptRange": 9,
 		"cost": 415,
-		"requiredTech": "Radar",
+		"requiredTech": "Rocketry",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Interceptor",
 		"obsoleteTech": "Lasers",
