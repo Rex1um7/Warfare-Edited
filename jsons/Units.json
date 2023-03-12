@@ -2296,7 +2296,7 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 275,
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Pharmaceuticals",
 		"uniques": ["No movement cost to pillage","Unbuildable","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Flamethrower",
 		"obsoleteTech": "Replaceable Parts",
