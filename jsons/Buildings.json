@@ -35,7 +35,7 @@
 		"cityHealth": 15,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["May buy [Routiers] units with [Gold] for [1] times their normal Production cost [in this city]","May buy [Free Company] units with [Gold] for [1] times their normal Production cost [in this city]","May buy [Mercenaries] units with [Gold] for [1] times their normal Production cost [in this city]","May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost [in this city]"],
+		"uniques": ["May buy [Routiers] units with [Gold] for [1] times their normal Production cost","May buy [Free Company] units with [Gold] for [1] times their normal Production cost","May buy [Mercenaries] units with [Gold] for [1] times their normal Production cost","May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost"],
 		"requiredTech": "Civil Service"
 	},
 	{
